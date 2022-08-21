@@ -1,0 +1,665 @@
+body {
+
+    font-family: 'Montserrat';
+}
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.promo {
+    background-image: url(../img/Rectangle\ 1.png);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.yellow a {
+    color: yellow;
+}
+
+.container {
+
+    width: 1140px;
+
+    margin: 0 auto;
+}
+
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 0;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.yellow {
+    color: #FFC700;
+}
+
+a {
+    color: white;
+}
+
+
+
+.promo h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    min-width: 719px;
+    margin-top: 129px;
+}
+
+
+
+.promo_button {
+    margin-top: 43px;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 230px;
+    height: 50px;
+
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+
+
+.link_text {
+    margin-top: 89px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+}
+
+.promo_2_ a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #282828;
+}
+
+
+.tour {
+    display: flex;
+    gap: 20px;
+
+}
+
+.buss_tour {
+    background-image: url(../img/Rectangle\ 13.png);
+    border-radius: 10px;
+    height: 497px;
+    width: 360px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 38px;
+}
+
+.transport {
+    padding-top: 211px;
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.place {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 2px;
+    padding-left: 16px;
+    color: #FFC700;
+
+}
+
+.hour img {
+    width: 11.25px;
+    height: 11.25px;
+    margin-left: 16px;
+}
+
+.hour {
+    padding-top: 16.35px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+    font-size: 12px;
+
+
+}
+
+
+.coin img {
+    width: 11.25px;
+    height: 11.25px;
+    margin-left: 94px;
+}
+
+
+.coin {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.information {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    width: 320px;
+    height: 105px;
+    padding-top: 20px;
+    margin-left: 16px;
+}
+
+
+.button {
+
+    margin-top: 43px;
+
+    margin-left: 16px;
+    width: 160px;
+    height: 40px;
+
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.equestrian_tour {
+    background-image: url(../img/Rectangle\ 13\ \(1\).png);
+    border-radius: 10px;
+    height: 497px;
+    width: 360px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 38px;
+}
+
+
+
+.Quad_tour {
+    background-image: url(../img/Rectangle\ 13\ \(2\).png);
+    border-radius: 10px;
+    height: 497px;
+    width: 360px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 38px;
+}
+
+
+.promo_3 {
+    background-image: url(../img/Rectangle\ 4.png);
+    margin-top: 110px;
+    height: 749px;
+    padding-top: 136px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.About_Us {
+    background-color: #ededed;
+    width: 542px;
+    height: 476px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.about_as_text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+    padding-top: 61px;
+    padding-left: 85px;
+}
+
+
+.about_as_text_2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 400px;
+    padding-left: 85px;
+    margin-right: 75px;
+    color: #282828;
+    padding-top: 40px;
+}
+
+.about_as_text_3 {
+    width: 382px;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    margin-left: 85px;
+    margin-right: 75px;
+
+}
+
+
+
+h3 {
+    margin-top: 98px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+
+}
+
+
+.tour_2 img {
+    width: 75px;
+    height: 74px;
+}
+
+.tour_2 {
+    display: grid;
+    margin-top: 90px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+}
+
+
+.car_tour_4 {
+    display: flex;
+    gap: 20px;
+}
+
+.tour_text_1 {
+    width: 455px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0499DD;
+}
+
+
+.tour_text_2 {
+    width: 455px;
+    height: 102px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+}
+
+
+.choose {
+    width: 550px;
+    padding-top: 60px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 auto;
+    text-align: center;
+    color: #282828;
+}
+
+
+.promo__bth {
+    margin: 0 auto;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    width: 230px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.promo__bth a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+.promo_5 {
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-rows: repeat(4, 110px);
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    width: 1140px;
+    padding-bottom: 100px;
+    max-width: 100%;
+
+    ;
+
+}
+
+#grid_1 {
+    background-image: url(../img/1.png);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#grid_2 {
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-image: url(../img/2.png);
+    grid-column: 3/5;
+    grid-row: 1/5;
+    border-radius: 5px;
+}
+
+
+#grid_3 {
+    background-position: center;
+    background-image: url(../img/3.png);
+    grid-column: 5/6;
+    grid-row: 1/3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+
+
+#grid_4 {
+    background-position: center;
+    background-image: url(../img/4.png);
+    grid-column: 6/7;
+    grid-row: 1/3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+#grid_5 {
+    background-position: center;
+    background-image: url(../img/5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+
+
+#grid_6 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-image: url(../img/6.png);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#grid_7 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-image: url(../img/7.png);
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#grid_8 {
+    background-image: url(../img/8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: center;
+    grid-column: 5/7;
+    grid-row: 5/3;
+}
+
+
+
+@media (max-width: 428px) {
+
+    .promo {
+        width: 428px;
+        height: 573px;
+    }
+
+
+    .container {
+        width: 500px;
+        max-width: 100%;
+        margin-left: 24px;
+margin: 0 auto;
+    }
+
+    .menu a {
+        display: none;
+    }
+
+    .menu {
+        background-image: url(../img/меню.png);
+     margin-right: 40px;
+        background-repeat: no-repeat;
+        width: 40px;
+
+    }
+
+
+
+
+
+
+
+    .promo_button {
+        font-size: 14px;
+        font-weight: 700;
+        width: 230px;
+        height: 50px;
+        border-radius: 60px;
+        background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 700;
+        gap: 10px;
+        text-decoration: none;
+        color: white;
+        margin-top: 60px;
+
+    }
+
+    .promo h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+
+        /* white */
+
+        color: #FFFFFF;
+
+    }
+
+    .promo img {
+        margin-left: 25px;
+    }
+
+    .equestrian_tour {
+        display: none;
+    }
+
+    .tour{
+       margin-left: 50px;
+    }
+
+    .Quad_tour {
+        display: none;
+    }
+
+
+    .promo_2_ {
+        display: none;
+    }
+
+    .promo_3 {
+        width: 428px;
+        height: 704px;
+
+    }
+
+    .About_Us {
+        margin: 0 auto;
+       
+        width: 380px;
+        height: 400px;
+    }
+
+    .about_as_text_2 {
+        width: 294px;
+        height: 144px;
+    }
+
+    .about_as_text_3 {
+
+        display: none;
+
+    }
+
+
+    .tour_2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .tour_text_2 {
+        width: 285px;
+        height: 144px;
+        left: 119px;
+    }
+
+    .choose {
+        width: 380px;
+        height: 48px;
+        margin-bottom: 70px;
+
+    }
+
+    .promo__bth {
+        margin-left: 50px;
+    }
+
+
+    #grid_4 {
+        display: none;
+    }
+
+
+    #grid_5 {
+        display: none;
+    }
+
+    #grid_6 {
+        display: none;
+    }
+
+    #grid_7 {
+        display: none;
+    }
+
+
+
+.promo_5{
+margin-left: 40px;
+    grid-template-rows: repeat(10, 80px);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#grid_2{
+grid-column: 1/4;
+grid-row: 1/5;
+}
+    
+#grid_3{
+    grid-column: 4/7;
+}
+
+
+#grid_8{
+grid-column: 4/7;
+grid-row: 3/5;
+}
+
+#grid_1{
+    grid-column: 1/7;
+    grid-row: 5/7;
+}
+
+}
